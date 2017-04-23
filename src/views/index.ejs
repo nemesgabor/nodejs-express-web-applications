@@ -104,16 +104,26 @@
             <br>
             <div class="col-md-2 col-sm-3 text-center">
               Sign In
+              <form name="signInForm"
+                    action="/auth/signIn"
+                    method="POST">
+                    <input name="userName" id="userName" type="text" placeholder="User name">
+                    <br/>
+                    <input name="password" id="password" type="password" placeholder="Password">
+                    <br/>
+                    <input type="submit" value="Sign In">
+              </form>
             </div>
             <div class="col-md-10 col-sm-9">
               Sign Up
               <form name="signUpForm"
                     action="/auth/signUp"
                     method="POST">
-                    <input name="userName" id="userName" type="text">
-                    <input name="password" id="password" type="password">
+                    <input name="userName" id="userName" type="text" placeholder="User name">
+                    <br/>
+                    <input name="password" id="password" type="password" placeholder="Password">
+                    <br/>
                     <input type="submit" value="Sign up">
-              
               </form>
             </div>
           </div>
