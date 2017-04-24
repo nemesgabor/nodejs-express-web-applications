@@ -6,18 +6,21 @@ var books = [
             Title:'Valami1',
             Author:'Valaki1',
             Genre: 'Biography',
+            bookId: 656,
             Read: false
         },
         {
             Title:'Valami2',
             Author:'Valaki2',
             Genre: 'Biography',
+            bookId: 24280,
             Read: false
         },
         {
             Title:'Valami3',
             Author:'Valaki3',
             Genre: 'Biography',
+            bookId: 24280,
             Read: false
         }
     ];
